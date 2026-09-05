@@ -1,0 +1,26 @@
+# ── Secrets — never commit these ──
+.env
+fb_session.json
+
+# ── Local config: Line group IDs identify your private groups ──
+# Copy restaurants.example.json to restaurants.json and fill it in.
+restaurants.json
+
+# ── Runtime state ──
+*.log
+menu_store.json
+
+# ── Python ──
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+
+# ── Editors / OS ──
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db

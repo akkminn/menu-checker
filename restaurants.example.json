@@ -1,0 +1,20 @@
+[
+  {
+    "_comment": "Copy this file to restaurants.json and fill in your own IDs. restaurants.json is gitignored because Line group IDs identify your private groups.",
+    "name": "Example Restaurant - နမူနာ",
+    "page_url": "https://www.facebook.com/profile.php?id=000000000000000",
+    "source_line_group_id": "Cxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx",
+    "line_group_id": "Cyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyy",
+    "skip_images": true,
+    "line_contact": ""
+  },
+  {
+    "_comment": "A restaurant that only posts in a Line group needs no page_url. Set skip_images to false to let the bot read menu photos.",
+    "name": "Line Only Example",
+    "page_url": "",
+    "source_line_group_id": "Czzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz",
+    "line_group_id": "Cyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyy",
+    "skip_images": false,
+    "line_contact": "https://line.me/R/ti/p/~exampleid"
+  }
+]
